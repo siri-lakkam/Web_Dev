@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tennis 101: A Beginner's Guide</title>
+  <meta name="description" content="A personal beginner's guide to tennis, from tagging along with a friend to making varsity, with scoring explained, a live scoreboard, and tips for getting started.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&amp;family=Source+Serif+4:wght@400;600&amp;display=swap">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="site-nav" aria-label="Main navigation">
+      <ul class="nav-list">
+        <li><a href="#what">What it is</a></li>
+        <li><a href="#why">Why I play</a></li>
+        <li><a href="#story">My story</a></li>
+        <li><a href="#start">Get started</a></li>
+        <li><a href="#scoring">Scoring</a></li>
+        <li><a href="#courts">Courts</a></li>
+        <li><a href="#learn">Join me</a></li>
+        <li><a href="#join">Find a partner</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <div class="hero-court">
+        <h1>Tennis 101</h1>
+        <p class="hero-text">From tagging along with a friend to making varsity: everything I wish I'd known when I picked up a racquet.</p>
+        <a class="hero-link" href="#start">Start with the basics</a>
+      </div>
+    </div>
+  </header>
+ 
+  <main>
+    <section id="what" class="content-section" aria-labelledby="what-title">
+      <h2 id="what-title">What is tennis?</h2>
+      <div class="about-layout">
+        <div class="about-text">
+          <p>Tennis is the sport that taught me I could start at the bottom and work my way up. Two players, or four in doubles, trade a felt-covered ball over a net, and a point ends when someone can't get it back inside the lines.</p>
+          <p>I never planned to play. A friend who already played dragged me along, and I just tagged behind. I kept showing up, though, and somewhere along the way it stopped being their thing and became mine.</p>
+          <p>You don't need much to begin. A racquet, a can of balls, and a court are enough, and plenty of public parks have courts that are free or cheap.</p>
+        </div>
+        <aside class="quick-facts" aria-labelledby="facts-title">
+          <h3 id="facts-title">Quick facts</h3>
+          <ul class="ball-list">
+            <li>Singles court: 78 feet long and 27 feet wide</li>
+            <li>Doubles court: 36 feet wide</li>
+            <li>Net height: 3 feet at the center</li>
+            <li>Players: 2 in singles, 4 in doubles</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+ 
+    <section id="why" class="content-section" aria-labelledby="why-title">
+      <h2 id="why-title">Why I play</h2>
+      <p>Tennis rewards patience as much as power. Every point is a small puzzle, and I've seen proof that effort shows up on the court.</p>
+      <ul class="ball-list">
+        <li><strong>You can start from nothing.</strong> I wasn't a natural. I got better because I worked at it, one session at a time.</li>
+        <li><strong>It wakes up my whole body.</strong> Running, stretching, and changing direction in a split second leave me tired in the best way.</li>
+        <li><strong>It's mine to shape.</strong> I choose where to hit, how hard, and how much spin, so no two rallies feel alike.</li>
+        <li><strong>It's never lonely.</strong> I can hit against a wall alone, rally with a friend, or play in a group. It's how I got started, after all.</li>
+      </ul>
+    </section>
+
+    <section id="story" class="content-section" aria-labelledby="story-title">
+      <h2 id="story-title">My story: from tagging along to varsity</h2>
+      <p>The summer I decided to take tennis seriously, I signed up for every bootcamp I could find. Yes, even the ones meant for elementary schoolers. I was the biggest kid in the group, and I didn't care. I wanted the reps, and I wanted to get better.</p>
+      <p>It paid off. I made varsity. I still think about those early mornings with kids half my size, because that's where it happened. Nobody handed me a spot. I earned it, and that feeling is why I'd tell anyone to pick up a racquet.</p>
+    </section>
+ 
+    <section id="start" class="content-section" aria-labelledby="start-title">
+      <h2 id="start-title">How to get started</h2>
+      <p>I wish someone had walked me through this at the beginning. Each step builds on the one before it.</p>
+      <ol class="steps">
+        <li><strong>Borrow or buy a racquet.</strong> Pick one that's light and comfortable. Don't overthink it.</li>
+        <li><strong>Learn a basic grip.</strong> For forehands, hold it like you're shaking hands with the racquet.</li>
+        <li><strong>Practice the forehand.</strong> Stand near the middle and swing smoothly. Power can wait.</li>
+        <li><strong>Add the backhand.</strong> One hand or two, whichever feels steadier.</li>
+        <li><strong>Learn to serve.</strong> Go slowly at first. Getting the ball in the service box feels like a small victory.</li>
+        <li><strong>Play mini tennis</strong> inside the service boxes with a partner, then move to the full court.</li>
+      </ol>
+    </section>
+ 
+    <section id="scoring" class="content-section" aria-labelledby="scoring-title">
+      <h2 id="scoring-title">How scoring works</h2>
+      <p>Scoring confused me at first too, so here's the short version. Points go 0 (love), 15, 30, 40. You win a game with at least four points and a two-point lead. At 40 all it's <strong>deuce</strong>, and you must win two points in a row from there. The first point after deuce is called <strong>advantage</strong>.</p>
+      <p>Win six games by a margin of two and you take the set. At six games all, a tiebreak usually decides it. Most matches are best of three sets, and some tournaments go to five.</p>
+      <h3>Try it yourself</h3>
+      <p>Award points to each player and see if you can reach deuce. It's tense even on a screen.</p>
+      <div class="scoreboard">
+        <div class="player-panel" id="panel-a">
+          <h4>Player A</h4>
+          <p class="score" id="score-a">0</p>
+          <button type="button" class="button point-button" data-player="a">Point for Player A</button>
+        </div>
+        <div class="player-panel" id="panel-b">
+          <h4>Player B</h4>
+          <p class="score" id="score-b">0</p>
+          <button type="button" class="button point-button" data-player="b">Point for Player B</button>
+        </div>
+      </div>
+      <p id="game-message" class="game-message" role="status" aria-live="polite">Game in progress. Award a point to either player.</p>
+      <button type="button" id="reset-game" class="button button-outline">Start a new game</button>
+    </section>
+ 
+    <section id="courts" class="content-section" aria-labelledby="courts-title">
+      <h2 id="courts-title">Courts and surfaces</h2>
+      <div class="court-layout">
+        <figure class="court-figure">
+          <img src="images/court_image.png" alt="Top-down diagram of a tennis court showing the baselines, sidelines, service lines, and the net down the middle" width="678" height="452">
+          <figcaption>A tennis court from above. The yellow dashed line is the net.</figcaption>
+        </figure>
+        <div class="court-text">
+          <p>Serves must land in the service box diagonally across the net. Rallies use the whole court, and in singles the inner sidelines mark the boundary.</p>
+          <p>The surface changes everything. Grass is fast and low, clay is slow and bouncy, and hard courts sit in the middle. Everyone ends up with a favorite.</p>
+        </div>
+      </div>
+      <h3>Surfaces compared</h3>
+      <div class="table-wrap">
+        <table>
+          <caption>How the three main court surfaces play</caption>
+          <thead>
+            <tr>
+              <th scope="col">Surface</th>
+              <th scope="col">Ball speed</th>
+              <th scope="col">Bounce</th>
+              <th scope="col">Rallies tend to be</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Grass</th>
+              <td>Fast</td>
+              <td>Low</td>
+              <td>Short</td>
+            </tr>
+            <tr>
+              <th scope="row">Clay</th>
+              <td>Slow</td>
+              <td>High</td>
+              <td>Long</td>
+            </tr>
+            <tr>
+              <th scope="row">Hard</th>
+              <td>Medium</td>
+              <td>Medium</td>
+              <td>In between</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+ 
+    <section id="learn" class="content-section" aria-labelledby="learn-title">
+      <h2 id="learn-title">Ready to join me?</h2>
+      <p>These groups run lessons, leagues, and tournaments, and they publish the official rules:</p>
+      <ul class="ball-list">
+        <li><a href="https://www.usta.com/">USTA</a> is the national governing body in the U.S. Use it to find courts, coaches, and local leagues.</li>
+        <li><a href="https://www.itftennis.com/">International Tennis Federation</a> publishes the official rules and runs world-level competitions.</li>
+        <li><a href="https://www.wimbledon.com/">Wimbledon</a> is the oldest tournament in the world, and a great way to watch the sport at its best.</li>
+      </ul>
+    </section>
+ 
+    <section id="join" class="content-section" aria-labelledby="join-title">
+      <h2 id="join-title">Find a hitting partner</h2>
+      <p>Everyone needs someone to drag them onto the court, just like my friend did for me. Fill out this form to practice sending a request. This is a demo, so nothing is saved or sent.</p>
+      <form id="partner-form" class="partner-form">
+        <div class="field">
+          <label for="player-name">Your name</label>
+          <input type="text" id="player-name" name="player-name" autocomplete="name" required>
+        </div>
+        <div class="field">
+          <label for="player-email">Email address</label>
+          <input type="email" id="player-email" name="player-email" autocomplete="email" required>
+        </div>
+        <div class="field">
+          <label for="player-level">Skill level</label>
+          <select id="player-level" name="player-level">
+            <option value="Beginner">Beginner</option>
+            <option value="Intermediate">Intermediate</option>
+            <option value="Advanced">Advanced</option>
+          </select>
+        </div>
+        <fieldset class="field">
+          <legend>Preferred surface</legend>
+          <div class="radio-group">
+            <label><input type="radio" name="surface" value="hard" checked> Hard</label>
+            <label><input type="radio" name="surface" value="clay"> Clay</label>
+          </div>
+        </fieldset>
+        <div class="field">
+          <label for="player-notes">Anything else we should know?</label>
+          <textarea id="player-notes" name="player-notes" rows="3"></textarea>
+        </div>
+        <button type="submit" class="button">Send request</button>
+      </form>
+      <p id="form-message" class="form-message" role="status" aria-live="polite"></p>
+    </section>
+  </main>
+ 
+  <footer class="site-footer">
+    <p>Tennis 101. Built for CSE 2004.</p>
+  </footer>
+</body>
+</html>
